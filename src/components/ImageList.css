@@ -1,0 +1,7 @@
+
+  .card-columns {
+      display: flex; 
+      flex-direction: row;
+      flex-wrap: wrap; 
+  }
+  
