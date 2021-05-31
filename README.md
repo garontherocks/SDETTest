@@ -1,4 +1,4 @@
-# SDETTest
+# SDET-Test
 
 The purpose of this project is to complete all tasks from the SDET-test challenge and to be able to test all requested scenarios.\
 
