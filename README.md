@@ -7,7 +7,7 @@ Lets discuss the project with more depth:
 JS, Node.js and React was my stack of choice for this challenge. This stack allowed me to display the photos on different components that
 added detailed information for each picture. Also gives us a view that lets us compare the photos by looking at the results given by
 NASA APIs, in order to comply with the first 3 tasks of this challenge. Test scenario 4 is validated using a unit test assertion
-that sends an alarm message.
+that sends an alarm message. src/data/getImages.js file has functionality comments on all methods and fuctions used for this challenge.
 
 # What could be improved in this project?
 
