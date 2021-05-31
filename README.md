@@ -1,40 +1,24 @@
 # SDETTest
 
-El propósito de esta App es crear una galería en donde se vean las publicaciones virales de la red social Imgur.\
+The purpose of this project is to complete all tasks from the SDET-test challenge and to be able to test all requested scenarios.\
 
+Lets discuss the project with more depth:
 
-# Error en la App
+JS, Node.js and React was my stack of choice for this challenge. This stack allowed me to display the photos on different components that
+added detailed information for each picture. Also gives us a view that lets us compare the photos by looking at the results given by
+NASA APIs, in order to comply with the first 3 tasks of this challenge. Test scenario 4 is validated using a unit test assertion
+that sends an alarm message.
 
-**Nota:** Estuve viendo que últimamente la aplicación falla al iniciar.\
-Estuve revisando y parece que es un problema externo, relacionado a la API de la red social
+# What could be improved in this project?
 
- ### `error:'Imgur is temporarily over capacity. Please try again later.'`
+- Hash API Key in order to improve security.
+- Frontend could be optimized and refactored in order to display the photos with a more detailed view. 
+- Warnings because of duplicated IDs when displaying pictures side by side (will be fixed in the next push).
+- Always open to advice from colleagues so shoot away!
 
+## How to run this test?
 
-No tengo forma de solucionarlo, **debido a que la API no es mía**
-
-
-adjunto link con un poco más de información al respecto
-
-https://english.api.rakuten.net/imgur/api/Imgur/discussions/4947/Getting-constantly-Imgur-is-temporarily-over-capacity.-Please-try-again-later
-
-
-# Cosas que podría haber hecho mejor
-
-
-- Al momento de realizar esta app, no tenía mucho conocimiento en Redux, por lo que no lo utilicé
-- Todas las rutas son públicas, tendría que haber puesto algunas privadas
-- Utilicé muy mal el CSS, llegando a plasmar gran parte en sobre el propio código
-- En su momento nunca contemplé un error de la API (error de novato), y no devuelvo ningún mensaje comentando que **no soy responsable del error**
-
-
-Si desean ver un trabajo con unos estilos decentes, pueden mirar mi repo de JournalApp (la app sigue en proceso de desarrollo) 
-
-## Manual de ejecución
-
-Descargar el proyecto y ejecutar los siguientes comandos
+Download/clone this project and execute the following commands:
 
 - ### `npm install`
 - ### `npm start`
-
-
