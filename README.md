@@ -9,6 +9,17 @@ added detailed information for each picture. Also gives us a view that lets us c
 NASA APIs, in order to comply with the first 3 tasks of this challenge. Test scenario 4 is validated using a unit test assertion
 that sends an alarm message. src/data/getImages.js file has functionality comments on all methods and fuctions used for this challenge.
 
+## Challenge
+Create pilot JavaScript test framework for testing NASA's open API.
+
+NASA has an open API: https://api.nasa.gov/index.html#getting-started. It grants access to different features e.g: Astronomy Picture of the Day, Mars Rover Photos, etc.
+
+We would like to test different scenarios that the API offers:
+1. Retrieve the first 10 Mars photos made by "Curiosity" on 1000 Martian sol.
+2. Retrieve the first 10 Mars photos made by "Curiosity" on Earth date equal to 1000 Martian sol.
+3. Retrieve and compare the first 10 Mars photos made by "Curiosity" on 1000 sol and on Earth date equal to 1000 Martian sol.
+4. Validate that the amounts of pictures that each "Curiosity" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.
+
 # What could be improved in this project?
 
 - Hash API Key in order to improve security.
